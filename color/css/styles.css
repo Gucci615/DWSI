@@ -6,7 +6,7 @@ Dec 4, 2013*/
 /*---font type and cloro for h1---*/
 h1{
 	font-family: Impact; sans-serif;
-	color: white;
+	color: #de1809;
 }
 
 /*---#color for h2 bg and font--*/
@@ -14,11 +14,20 @@ h1{
 h2{
 	border-width: 2px 0px;
 	background-color: #ff8114;
-	color: white;
+	color: #fae0;
 }
 
-/*---body font & family*/
-body{
+/*---p font & family---*/
+p {
 	font-family: Arial, Helvetica, sans-serif;
-	background: #f5cd13;
+	background: #fae0bf;
+}
+/*body bg color*/
+body{
+	background-color: #fae9bf;
+}
+
+/*link color*/
+a, strong {
+	color: #1526de;
 }
