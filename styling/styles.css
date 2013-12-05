@@ -1,0 +1,33 @@
+/*css for color html*/
+/*Name: Juan Mason
+Dec 4, 2013*/
+
+
+/*---font type and cloro for h1---*/
+h1{
+	font-family: Impact;
+	color: #de1809;
+}
+
+/*---#color for h2 bg and font--*/
+
+h2{
+	border-width: 2px 0px;
+	background-color: #ff8114;
+	font-family: Helvetica, sans-serif;
+}
+
+/*---p font & family---*/
+p {
+	font-family: Arial, sans-serif;
+	background: #fae0bf;
+}
+/*body bg #color*/
+body{
+	background-color: #fae9bf;
+}
+
+/*link #color*/
+a, strong {
+	color: #1526de;
+}
