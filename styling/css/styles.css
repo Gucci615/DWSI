@@ -7,6 +7,7 @@ Dec 4, 2013*/
 h1{
 	font-family: Impact;
 	color: #de1809;
+	text-shadow: 2px 2px 0px #000000;
 }
 
 /*---#color for h2 bg and font--*/
@@ -19,6 +20,7 @@ h2{
 
 /*---p font & family---*/
 p {
+	text-indent: 20px;
 	font-family: Arial, sans-serif;
 	background: #fae0bf;
 }
