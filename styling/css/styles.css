@@ -29,7 +29,23 @@ body{
 	background-color: #fae9bf;
 }
 
-/*link #color*/
-a, strong {
+/*link psudeo-classes*/
+a:link {
 	color: #1526de;
+	text-decoration: none;
+}
+a:visited {
+	color: #de1809;
+}
+a:hover {
+	color: orange;
+}
+a:active{
+	color: black;
+}
+/*add drop shadow to stron & #color*/
+strong{
+	text-shadow: 1px 1px 0px #000000;
+	color: #1526de;
+
 }
