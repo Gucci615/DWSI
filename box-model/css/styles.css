@@ -25,6 +25,7 @@ h1{
 h2{
 	text-transform: uppercase;
 	letter-spacing: 0.25em;
+	padding: 5px;
 	border-width: 2px 0px;
 	background-color: #ff8114;
 	font-family: Helvetica, sans-serif;
@@ -35,14 +36,13 @@ h2{
 p {
 	text-indent: 20px;
 	font-family: Arial, sans-serif;
-	border-left: 2px solid #ff8114;
-	border-right: 2px solid #ff8114;
-	border-top: 2px solid #ff8114;
-	border-bottom: 2px solid #ff8114;
+	border: 2px 2px 2px 2px; 
+	border: solid #ff8114;
 	margin-top: 1.5em;
-  	margin-right: 1.5em;
+  	margin-right: 5em;
   	margin-bottom: 1em;
-  	margin-left: 15em;
+  	margin-left: 5em;
+  	padding: 5px;
 	background: #fae0bf;
 }
 /*body bg #color*/
