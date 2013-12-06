@@ -12,10 +12,9 @@ h1{
 	text-shadow: 2px 2px 0px white;
 	text-align: center;
 	color: #de1809;
-	border-left: 2px solid #ff8114;
-	border-right: 2px solid #ff8114;
-	border-top: 2px solid #ff8114;
-	border-bottom: 2px solid #ff8114;
+	border: 2px 2px 2px 2px; 
+	border: solid #ff8114;
+
 	background-color: #1526de;
 	
 }
@@ -69,12 +68,14 @@ a:active{
 
 /*list-style*/
 ul {
+	text-align: center;
 	list-style: inside square;
-	width: 250px;
+	
 }
 li {
-	font-size: 115%;
-	margin: 7px 0px 0px 0px;
+	font-size: 125%;
+	display: inline-block;
+	margin-right: 10px;
 }
 /*add drop shadow to stron & #color*/
 strong{
