@@ -29,12 +29,21 @@ h2{
 p {
 	text-indent: 20px;
 	font-family: Arial, sans-serif;
+	margin-top: 1em;
+  	margin-right: 1em;
+  	margin-bottom: 1em;
+  	margin-left: 1em;
 	background: #fae0bf;
 }
 /*body bg #color*/
 body{
 	background-color: #fae9bf;
+	border-left: 2px solid #ff8114;
+	border-right: 2px solid #ff8114;
+	border-top: 2px solid #ff8114;
+	border-bottom: 2px solid #ff8114;
 }
+
 
 /*link psudeo-classes*/
 a:link {
