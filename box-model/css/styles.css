@@ -9,9 +9,15 @@ h1{
 	font-family: Impact;
 	font-size: 350%;
 	word-spacing: .25em;
-	color: #de1809;
-	text-shadow: 2px 2px 0px #000000;
+	text-shadow: 2px 2px 0px white;
 	text-align: center;
+	color: #de1809;
+	border-left: 2px solid #ff8114;
+	border-right: 2px solid #ff8114;
+	border-top: 2px solid #ff8114;
+	border-bottom: 2px solid #ff8114;
+	background-color: #1526de;
+	
 }
 
 /*---#color for h2 bg and font--*/
@@ -29,19 +35,20 @@ h2{
 p {
 	text-indent: 20px;
 	font-family: Arial, sans-serif;
-	margin-top: 1em;
-  	margin-right: 1em;
+	border-left: 2px solid #ff8114;
+	border-right: 2px solid #ff8114;
+	border-top: 2px solid #ff8114;
+	border-bottom: 2px solid #ff8114;
+	margin-top: 1.5em;
+  	margin-right: 1.5em;
   	margin-bottom: 1em;
-  	margin-left: 1em;
+  	margin-left: 15em;
 	background: #fae0bf;
 }
 /*body bg #color*/
 body{
 	background-color: #fae9bf;
-	border-left: 2px solid #ff8114;
-	border-right: 2px solid #ff8114;
-	border-top: 2px solid #ff8114;
-	border-bottom: 2px solid #ff8114;
+	
 }
 
 
