@@ -4,7 +4,7 @@ Dec 4, 2013*/
 /*Validated Dec 5, 2013*/
 
 
-/*---font type and cloro for h1---*/
+/*--- h1 ---*/
 h1{
 	font-family: Impact;
 	font-size: 350%;
@@ -14,29 +14,37 @@ h1{
 	color: #de1809;
 	border: 2px 2px 2px 2px; 
 	border: solid #ff8114;
-
+	border-radius: 10px; 
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	background-color: #1526de;
 	
 }
 
-/*---#color for h2 bg and font--*/
+/*--- h2 ---*/
 
 h2{
 	text-transform: uppercase;
 	letter-spacing: 0.25em;
 	padding: 5px;
 	border-width: 2px 0px;
+	border-radius: 10px; 
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 	background-color: #ff8114;
 	font-family: Helvetica, sans-serif;
 	text-shadow: 2px 2px 0px white;
 }
 
-/*---p font & family---*/
+/*--- p ---*/
 p {
 	text-indent: 20px;
 	font-family: Arial, sans-serif;
 	border: 2px 2px 2px 2px; 
 	border: solid #ff8114;
+	border-radius: 20px; 
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
 	margin-top: 1.5em;
   	margin-right: 5em;
   	margin-bottom: 1em;
