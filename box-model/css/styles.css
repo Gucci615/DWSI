@@ -71,7 +71,7 @@ li {
 }
 /*add drop shadow to stron & #color*/
 strong{
-	text-shadow: 1px 1px 0px #000000;
+	text-shadow: 2px 1px 0px white;
 	color: #1526de;
 
 }
