@@ -53,10 +53,11 @@ a:active{
 /*list-style*/
 ul {
 	list-style: inside circle;
-	width: 200px;
+	width: 250px;
 }
 li {
-	margin: 10px 0px 0px 0px;
+	font-size: 115%;
+	margin: 7px 0px 0px 0px;
 }
 /*add drop shadow to stron & #color*/
 strong{
