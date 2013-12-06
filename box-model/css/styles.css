@@ -1,0 +1,66 @@
+/*css for color html*/
+/*Name: Juan Mason
+Dec 4, 2013*/
+/*Validated Dec 5, 2013*/
+
+
+/*---font type and cloro for h1---*/
+h1{
+	font-family: Impact;
+	font-size: 300%;
+	word-spacing: .25em;
+	color: #de1809;
+	text-shadow: 2px 2px 0px #000000;
+}
+
+/*---#color for h2 bg and font--*/
+
+h2{
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	border-width: 2px 0px;
+	background-color: #ff8114;
+	font-family: Helvetica, sans-serif;
+	text-shadow: 2px 2px 0px white;
+}
+
+/*---p font & family---*/
+p {
+	text-indent: 20px;
+	font-family: Arial, sans-serif;
+	background: #fae0bf;
+}
+/*body bg #color*/
+body{
+	background-color: #fae9bf;
+}
+
+/*link psudeo-classes*/
+a:link {
+	color: #1526de;
+	text-decoration: none;
+}
+a:visited {
+	color: #de1809;
+}
+a:hover {
+	color: orange;
+}
+a:active{
+	color: black;
+}
+
+/*list-style*/
+ul {
+	list-style: inside circle;
+	width: 200px;
+}
+li {
+	margin: 10px 0px 0px 0px;
+}
+/*add drop shadow to stron & #color*/
+strong{
+	text-shadow: 1px 1px 0px #000000;
+	color: #1526de;
+
+}
