@@ -7,10 +7,11 @@ Dec 4, 2013*/
 /*---font type and cloro for h1---*/
 h1{
 	font-family: Impact;
-	font-size: 300%;
+	font-size: 350%;
 	word-spacing: .25em;
 	color: #de1809;
 	text-shadow: 2px 2px 0px #000000;
+	text-align: center;
 }
 
 /*---#color for h2 bg and font--*/
@@ -52,7 +53,7 @@ a:active{
 
 /*list-style*/
 ul {
-	list-style: inside circle;
+	list-style: inside square;
 	width: 250px;
 }
 li {
