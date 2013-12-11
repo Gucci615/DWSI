@@ -1,0 +1,108 @@
+/*css for color html*/
+/*Name: Juan Mason
+Dec 4, 2013*/
+/*Validated Dec 5, 2013*/
+
+
+/*--- h1 ---*/
+h1{
+	font-family: Impact;
+	font-size: 350%;
+	word-spacing: .25em;
+	text-shadow: 2px 2px 0px white;
+	text-align: center;
+	color: #de1809;
+	border: 2px; 
+	border: solid #ff8114;
+	border-radius: 10px; 
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 5px 5px 5px #777777;
+	-moz-box-shadow: 5px 5px 5px #777777;
+	-webit-box-shadow: 5px 5px 5px #777777;
+	background-color: #1526de;
+}
+
+/*--- h2 ---*/
+
+h2{
+	text-transform: uppercase;
+	color: rgb(247,021,021);
+	letter-spacing: 0.25em;
+	padding: 5px;
+	border-width: 2px 0px;
+	border-radius: 10px; 
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 5px 5px 5px #777777;
+	-moz-box-shadow: 5px 5px 5px #777777;
+	-webit-box-shadow: 5px 5px 5px #777777;
+	background-color: #ff8114;
+	font-family: Helvetica, sans-serif;
+	text-shadow: 2px 2px 0px hsl(0,75%,0%);
+}
+
+/*--- p ---*/
+p {
+	text-indent: 20px;
+	font-family: Arial, sans-serif;
+	border: 2px; 
+	border: solid #ff8114;
+	border-radius: 20px; 
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	box-shadow: 5px 5px 5px #777777;
+	-moz-box-shadow: 5px 5px 5px #777777;
+	-webit-box-shadow: 5px 5px 5px #777777;
+	margin-top: 1.5em;
+  	margin-right: 5em;
+  	margin-bottom: 1em;
+  	margin-left: 5em;
+  	padding: 5px;
+	background: #fae0bf;
+}
+/*body bg #color*/
+body{
+	background-color: #fae9bf;
+	
+}
+
+
+/*link psudeo-classes*/
+a:link {
+	color: #1526de;
+	text-decoration: none;
+}
+a:visited {
+	color: #de1809;
+}
+a:hover {
+	color: orange;
+}
+a:active{
+	color: black;
+}
+
+/*list-style*/
+ul {
+	text-align: center;
+	list-style: inside square;	
+}
+li {
+	font-size: 125%;
+	display: inline-block;
+	margin-right: 10px;
+}
+/*add drop shadow to stron & #color*/
+strong{
+	text-shadow: 2px 1px 0px white;
+	color: #1526de;
+}
+
+
+id= "footer"{
+	color: rgb(000,000,00);
+}
+
+
+
