@@ -1,20 +1,7 @@
 /*css for layout html*/
-/*Name: Juan Mason
+/*Name: Juan E. Mason
 Dec 10, 2013*/
 /*Validated Dec 5, 2013*/
-
-body { 
-width: 1300px; margin: 0 auto;
-}
-#content { 
-overflow: auto; height: 100%;
-}
-
-  .origin, .prominence, .undisputed, .brand, .design, .reigns, .footer { 
- width: 630px; float: left;
-margin: 10px;
-} 
-
 
 
 /*--- h1 ---*/
@@ -58,7 +45,6 @@ h2{
 /*--- p ---*/
 p {
 	text-indent: 20px;
-	line-height: 22px;
 	font-family: Arial, sans-serif;
 	border: 2px; 
 	border: solid #ff8114;
@@ -72,11 +58,9 @@ p {
   	margin-right: 5em;
   	margin-bottom: 1em;
   	margin-left: 5em;
-  	padding: 10px;
+  	padding: 5px;
 	background: #fae0bf;
 }
-
-
 /*body bg #color*/
 body{
 	background-color: #fae9bf;
@@ -114,7 +98,6 @@ strong{
 	text-shadow: 2px 1px 0px white;
 	color: #1526de;
 }
-
 
 
 
