@@ -5,17 +5,19 @@ Dec 10, 2013*/
 
 
 body { 
-width: 95%; 
-margin: 0 auto;
+	background:url('../images/sand-blossom.gif');
+	background-repeat: repeat;
+	width: 95%; 	
+	margin: 0 auto;
 }
 #content { 
-overflow: auto; 
+	overflow: auto; 
 
 }
 
  .origin, .prominence, .undisputed, .brand, .design, .reigns, .footer { 
- width:45%; float: left;
-margin: 10px;
+	width:45%; float: left;
+	margin: 10px;
 } 
 
 
@@ -77,12 +79,6 @@ p {
   	padding: 5px;
 	background: #fae0bf;
 }
-/*body bg #color*/
-body{
-	background-color: #fae9bf;
-	
-}
-
 
 /*link psudeo-classes*/
 a:link {
