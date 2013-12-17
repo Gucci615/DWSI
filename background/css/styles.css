@@ -57,7 +57,11 @@ h2{
 	-moz-box-shadow: 5px 5px 5px #777777;
 	-webit-box-shadow: 5px 5px 5px #777777;
 	background-color: #ff8114;
-	background: linear-gradient(to bottom, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* W3C */
+	background: linear-gradient(
+		to bottom, rgba(252,234,187,1) 
+		0%,rgba(252,205,77,1) 
+		50%,rgba(248,181,0,1) 51%,
+		rgba(251,223,147,1) 100%);
 	font-family: Helvetica, sans-serif;
 	text-shadow: 2px 2px 0px hsl(0,75%,0%);
 }
@@ -76,9 +80,9 @@ p {
 	-webit-box-shadow: 5px 5px 5px #777777;
 	margin-top: 1.5em;
   	margin-right: 5em;
-  	margin-bottom: 1em;
+  	margin-bottom: 1.5em;
   	margin-left: 5em;
-  	padding: 5px;
+  	padding: 6px;
 	background: #fae0bf;
 }
 
