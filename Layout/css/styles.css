@@ -5,16 +5,16 @@ Dec 10, 2013*/
 
 
 body { 
-width: 1300px; 
+width: 95%; 
 margin: 0 auto;
 }
 #content { 
 overflow: auto; 
-height: 100%;
+
 }
 
  .origin, .prominence, .undisputed, .brand, .design, .reigns, .footer { 
- width: 630px; float: left;
+ width:45%; float: left;
 margin: 10px;
 } 
 
