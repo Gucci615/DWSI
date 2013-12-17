@@ -1,7 +1,23 @@
 /*css for layout html*/
-/*Name: Juan E. Mason
+/*Name: Juan E.Mason
 Dec 10, 2013*/
 /*Validated Dec 5, 2013*/
+
+
+body { 
+width: 1300px; 
+margin: 0 auto;
+}
+#content { 
+overflow: auto; 
+height: 100%;
+}
+
+ .origin, .prominence, .undisputed, .brand, .design, .reigns, .footer { 
+ width: 630px; float: left;
+margin: 10px;
+} 
+
 
 
 /*--- h1 ---*/
