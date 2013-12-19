@@ -4,6 +4,10 @@ Dec 10, 2013*/
 /*Validated Dec 5, 2013*/
 
 
+header, section, footer, aside, nav, article, figure, figcaption {
+display: block;}
+
+
 body { 
 	background:url('../images/sand-blossom.gif');
 	background-repeat: repeat;
@@ -15,7 +19,7 @@ body {
 
 }
 
- .origin, .prominence, .undisputed, .brand, .design, .reigns, .footer { 
+ section, footer { 
 	width:45%; float: left;
 	margin: 10px;
 } 
@@ -107,7 +111,7 @@ ul {
 	list-style: inside square;	
 }
 li {
-	font-size: 125%;
+	font-size: 1.25em;
 	display: inline-block;
 	margin-right: 10px;
 }
@@ -116,6 +120,7 @@ strong{
 	text-shadow: 2px 1px 0px white;
 	color: #1526de;
 }
+
 
 
 
