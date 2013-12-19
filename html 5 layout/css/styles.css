@@ -19,7 +19,7 @@ body {
 
 }
 
- section, footer { 
+ section { 
 	width:45%; float: left;
 	margin: 10px;
 } 
@@ -122,7 +122,8 @@ strong{
 }
 
 table {
-	width: 175%;
+	width: 190%;
+	margin-left: 100px;
 }
 
 h3{
@@ -131,13 +132,39 @@ h3{
 th, td{
 	padding: 5px;
 	text-align: center;
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
 }
 th{
 	text-transform: uppercase;
+	border-top: 2px solid #000000;
+	border-bottom: 1px dashed #000000;
 
 }
+
+
+tr.even{
+	background-color: #f9fff4;
+}
+tr{
+	background-color: #e0e5dc;
+}
+
+tr.header{
+	color: #ffffff;
+	background-color: #de1809;
+}
+
+tr:hover{
+	color: #000000;
+	background-color: #b7f7ff;
+}
+
 footer{
-	align: bottom;
+	margin: 1% auto 5% auto;
+	float: left;
+
 }
 
 
