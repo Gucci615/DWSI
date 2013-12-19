@@ -121,6 +121,26 @@ strong{
 	color: #1526de;
 }
 
+table {
+	width: 175%;
+}
+
+h3{
+	text-align: center;
+}
+th, td{
+	padding: 5px;
+	text-align: center;
+}
+th{
+	text-transform: uppercase;
+
+}
+footer{
+	align: bottom;
+}
+
+
 
 
 
