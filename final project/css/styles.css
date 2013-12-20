@@ -6,3 +6,34 @@ Dec 19, 2013*/
 
 header, section, footer, aside, nav, article, figure, figcaption {
 display: block;}
+
+/*body*/
+body{
+	background: grey;
+}
+
+/*link psudeo-classes*/
+a:link {
+	color: #1526de;
+	text-decoration: none;
+}
+a:visited {
+	color: #de1809;
+}
+a:hover {
+	color: orange;
+}
+a:active{
+	color: black;
+}
+
+/*list-style*/
+ul {
+	text-align: center;
+	list-style: inside square;	
+}
+li {
+	font-size: 1.25em;
+	display: inline-block;
+	margin-right: 10px;
+}
