@@ -1,7 +1,7 @@
 /*css for layout html*/
 /*Name: Juan E.Mason
-Dec 10, 2013*/
-/*Validated Dec 5, 2013*/
+Dec 19, 2013*/
+/*Validated Dec 19, 2013*/
 
 
 header, section, footer, aside, nav, article, figure, figcaption {
@@ -48,7 +48,7 @@ h1{
 
 /*--- h2 ---*/
 
-h2{
+h2, legend{
 	text-transform: uppercase;
 	color: rgb(247,021,021);
 	letter-spacing: 0.25em;
@@ -161,8 +161,50 @@ tr:hover{
 	background-color: #b7f7ff;
 }
 
+
+fieldset{
+	margin: 30% auto 5% 10%;
+	float: left;
+	padding: .5%;
+	background-color: #f9fff4; 
+}
+
+label{
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 60%;
+}
+
+id.username {
+	float: right;
+	margin-left: 10px;
+
+}
+
+p.radio, p.age, p.text{
+	border: none;
+	background-color: inherit;
+	border-radius: none;
+	box-shadow: none;
+}
+
+textarea{
+	float: justified;
+	margin: -5% auto 1% auto;
+}
+
+textarea:focus, input:focus{
+		border: solid #900;
+}
+
+textarea:hover, input:hover{
+	background-color: #b7f7ff;
+}
+
+
 footer{
-	margin: 1% auto 5% auto;
+	margin: 10% auto 5% auto;
 	float: left;
 
 }
