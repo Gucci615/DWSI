@@ -183,14 +183,13 @@ id.username {
 }
 
 p.radio, p.age, p.text{
-	border: none;
+	border: 0px;
 	background-color: inherit;
-	border-radius: none;
+	border-radius: 0px;
 	box-shadow: none;
 }
 
 textarea{
-	float: justified;
 	margin: -5% auto 1% auto;
 }
 
