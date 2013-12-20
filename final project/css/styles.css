@@ -9,7 +9,18 @@ display: block;}
 
 /*body*/
 body{
-	background: grey;
+	background: #F2DABD;
+	width: 100%;
+}
+
+/*h1*/
+h1 {
+	font-family: Impact, Helvetica, Arial, sans-serif;
+	font-size: 3.5em;
+	word-spacing: .25em;
+	text-shadow: 2px 2px 0px white;
+	text-align: center;
+	color: #de1809;
 }
 
 /*link psudeo-classes*/
